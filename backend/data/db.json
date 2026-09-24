@@ -1,0 +1,195 @@
+{
+  "users": [],
+  "orders": [
+    {
+      "id": "2051e957-86bf-45e5-8332-a2d7d272297b",
+      "userId": null,
+      "items": [
+        {
+          "mealId": 1,
+          "name": "Paneer Steak with Vegetables",
+          "price": 249,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80"
+        }
+      ],
+      "customer": {
+        "name": "rucha kothari",
+        "email": "ruchakothari75@gmail.com",
+        "phone": "9930119778",
+        "address": "sector 20"
+      },
+      "notes": "",
+      "subtotal": 249,
+      "deliveryFee": 39,
+      "tax": 12,
+      "total": 300,
+      "currency": "INR",
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentProvider": "razorpay",
+      "createdAt": "2026-09-06T17:52:14.470Z",
+      "updatedAt": "2026-09-06T17:52:14.521Z"
+    },
+    {
+      "id": "66494b99-02d0-4cdf-a3cb-aab498661e86",
+      "userId": null,
+      "items": [
+        {
+          "mealId": 1,
+          "name": "Paneer Steak with Vegetables",
+          "price": 249,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80"
+        }
+      ],
+      "customer": {
+        "name": "rucha kothari",
+        "email": "ruchakothari75@gmail.com",
+        "phone": "9930119778",
+        "address": "sector 20"
+      },
+      "notes": "",
+      "subtotal": 249,
+      "deliveryFee": 39,
+      "tax": 12,
+      "total": 300,
+      "currency": "INR",
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentProvider": "razorpay",
+      "createdAt": "2026-09-06T18:13:02.651Z",
+      "updatedAt": "2026-09-06T18:13:02.703Z"
+    },
+    {
+      "id": "6fb3ff16-283b-430d-8a72-3bc2dcc2fbae",
+      "userId": null,
+      "items": [
+        {
+          "mealId": 3,
+          "name": "Roast Chicken with Herb Rice",
+          "price": 299,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          "mealId": 2,
+          "name": "Classic Dal Tadka & Rice",
+          "price": 199,
+          "quantity": 2,
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=900&q=80"
+        }
+      ],
+      "customer": {
+        "name": "rucha kothari",
+        "email": "ruchakothari75@gmail.com",
+        "phone": "9930119778",
+        "address": "sector 20"
+      },
+      "notes": "",
+      "subtotal": 697,
+      "deliveryFee": 0,
+      "tax": 35,
+      "total": 732,
+      "currency": "INR",
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentProvider": "razorpay",
+      "createdAt": "2026-09-24T15:16:11.999Z",
+      "updatedAt": "2026-09-24T15:16:12.035Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "075dd34b-ee1a-43c4-b68e-65b9ca2c993b",
+      "orderId": "2051e957-86bf-45e5-8332-a2d7d272297b",
+      "provider": "demo",
+      "status": "paid",
+      "createdAt": "2026-09-06T17:52:14.521Z"
+    },
+    {
+      "id": "172d8d97-2b56-4acb-8737-7542a38f3030",
+      "orderId": "66494b99-02d0-4cdf-a3cb-aab498661e86",
+      "provider": "demo",
+      "status": "paid",
+      "createdAt": "2026-09-06T18:13:02.703Z"
+    },
+    {
+      "id": "5dd0a1f1-7976-4031-ae24-572915a3a0f0",
+      "orderId": "6fb3ff16-283b-430d-8a72-3bc2dcc2fbae",
+      "provider": "demo",
+      "status": "paid",
+      "createdAt": "2026-09-24T15:16:12.035Z"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Green Bowl Kitchen",
+      "cuisine": "Healthy · Indian",
+      "rating": 4.8,
+      "deliveryTime": 25,
+      "deliveryFee": 39,
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 2,
+      "name": "The Curry Table",
+      "cuisine": "Indian",
+      "rating": 4.7,
+      "deliveryTime": 30,
+      "deliveryFee": 29,
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Pasta & Co.",
+      "cuisine": "Italian",
+      "rating": 4.6,
+      "deliveryTime": 35,
+      "deliveryFee": 49,
+      "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=80"
+    }
+  ],
+  "meals": [
+    {
+      "id": 1,
+      "restaurantId": "r1",
+      "name": "Paneer Steak with Vegetables",
+      "category": "High Protein",
+      "price": 249,
+      "calories": 526,
+      "protein": 26,
+      "carbs": 38,
+      "fat": 30,
+      "time": 20,
+      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 2,
+      "restaurantId": "r2",
+      "name": "Classic Dal Tadka & Rice",
+      "category": "Comfort",
+      "price": 199,
+      "calories": 480,
+      "protein": 18,
+      "carbs": 72,
+      "fat": 12,
+      "time": 25,
+      "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 3,
+      "restaurantId": "r3",
+      "name": "Roast Chicken with Herb Rice",
+      "category": "Balanced",
+      "price": 299,
+      "calories": 533,
+      "protein": 37,
+      "carbs": 58,
+      "fat": 17,
+      "time": 30,
+      "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=80"
+    }
+  ]
+}
